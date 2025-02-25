@@ -1,6 +1,6 @@
 **КОМАНДЫ В ТЕРМИНАЛЕ VS CODE**
 
-При создании нового репозитория:
+**1) При создании нового репозитория:**
 
 **git init**
 - чтобы репозиторий, созданный с помощью GITа в редакторе кода VS, отправить на аккаунт на GitHub. ( = инициализировать репозиторий)
@@ -16,16 +16,40 @@
 ![image](https://github.com/user-attachments/assets/21309668-e21c-4b93-9f22-534b7b842ba2)
 
 
+**git config --global user.name "Elena-fed880"**
+**git config --global user.email "fedoseeva.len2017@yandex.ru"**
 
-git add README.md
-
-git commit -m "first commit"
-
-git branch -M main
-
-git remote add origin https://github.com/Elena-fed880/file_name.git
-
-git push -u origin main
+(В ковычках пишем свои имя пользователя и эл. почту, которые указывали при регистрации аккаунта на GitHub)
 
 
-Для добавления изменений в текущий репозиторий: 
+
+**git commit -m "first commit"**
+( "-m"  означает message = комментарий,  далее идет в ковычках комментарий "first commit" - вместо него в ковычках м.б. что угодно)
+После этой команды - коммит выполнен.
+
+
+**git branch -M main**
+- переименовывает текущую ветку "main"
+
+
+**git remote add origin https://github.com/Elena-fed880/file_name.git**
+- ссылка на репозиторий на GitHub-е
+- добавляет удаленный путь под названием origin и указываем ссылку на него
+
+
+**git push -u origin main**
+ - означает, что хотим добавить все наши файлы по пути origin
+
+ - 
+
+**2) Для добавления изменений в текущий репозиторий:**
+
+- **git add .**
+- **git commit -m "new commit"**
+- **git push**
+- Обновляем страницу на GitHub-е
+
+
+
+
+
